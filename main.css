@@ -1,0 +1,162 @@
+/* TABLE OF CONTENTS */
+/*
+    1. GENERAL STYLES
+    
+*/
+body,
+html {
+  overflow-x: hidden; }
+
+::-moz-selection {
+  background-color: #62B8B2;
+  color: #FEFEFF; }
+
+::selection {
+  background-color: #62B8B2;
+  color: #FEFEFF; }
+
+header {
+  background-color: white;
+  padding: 20px 10px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
+  position: relative;
+  z-index: 2; }
+  header .menu-left img {
+    display: inline !important;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    cursor: pointer; }
+  header .menu-left h1 {
+    display: inline;
+    font-family: "Arial", sans-serif;
+    color: #62B8B2;
+    font-size: 20px;
+    padding-left: 35px; }
+  header .menu-right {
+    text-align: right; }
+    header .menu-right img {
+      cursor: pointer;
+      display: inline !important; }
+      header .menu-right img:not(:first-child) {
+        margin-left: 20px; }
+
+.banner-wrapper #banner {
+  padding: 0; }
+  .banner-wrapper #banner .carousel-indicators {
+    margin-bottom: 0; }
+    .banner-wrapper #banner .carousel-indicators li {
+      background-color: #DED9DF;
+      border: none; }
+      .banner-wrapper #banner .carousel-indicators li.active {
+        background-color: #62B8B2; }
+  .banner-wrapper #banner .carousel-inner img {
+    width: 100%; }
+
+.navigation {
+  text-align: center;
+  background-color: white; }
+  .navigation div {
+    padding: 0; }
+  .navigation h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #4C4C4C;
+    border-bottom: 5px solid #4C4C4C;
+    margin-bottom: 0; }
+    .navigation h2.current {
+      color: #62B8B2;
+      border-bottom: 5px solid #62B8B2; }
+
+.locations article {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Arial", sans-serif;
+  color: #FEFEFF;
+  min-height: 200px;
+  width: 100vw;
+  padding: 18px 14px 10px 0;
+  position: relative; }
+  .locations article .shadow {
+    width: 100vw;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.65) 100%); }
+  .locations article .location-name {
+    display: inline-block;
+    background-color: #62B8B2;
+    -webkit-clip-path: polygon(100% 0, 90% 50%, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 90% 50%, 100% 100%, 0 100%, 0 0);
+    padding: 5px 50px 5px 20px; }
+    .locations article .location-name h3 {
+      margin: 0;
+      font-family: "Arial", sans-serif; }
+  .locations article .views {
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    float: right;
+    padding-right: 15px; }
+    .locations article .views h5 {
+      position: relative;
+      padding-left: 20px; }
+      .locations article .views h5:before {
+        position: absolute;
+        content: "";
+        width: 12px;
+        height: 7px;
+        background-image: url("images/views-02.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        left: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%); }
+  .locations article .content {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    .locations article .content .info {
+      padding-right: 0;
+      width: 70%;
+      padding-left: 15px;
+      display: inline-block; }
+      .locations article .content .info .date,
+      .locations article .content .info .time {
+        padding-left: 20px;
+        position: relative; }
+        .locations article .content .info .date:before,
+        .locations article .content .info .time:before {
+          content: "";
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          position: absolute;
+          left: 0;
+          width: 12px;
+          height: 12px; }
+      .locations article .content .info .date:before {
+        background-image: url("images/date-02.png"); }
+      .locations article .content .info .time:before {
+        background-image: url("images/time-02.png"); }
+    .locations article .content .stars {
+      display: inline-block;
+      text-align: right;
+      width: 25%;
+      padding-right: 15px; }
+  .locations article#location1 {
+    background-image: url("images/location-1.jpg"); }
+  .locations article#location2 {
+    background-image: url("images/location-2.jpg"); }
+  .locations article#location3 {
+    background-image: url("images/location-3.jpg"); }
+
+/*# sourceMappingURL=main.css.map */
